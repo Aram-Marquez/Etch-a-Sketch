@@ -1,0 +1,62 @@
+body {
+  background-color: #e9edc9;
+  display: flex;
+  min-height: 50vh;
+  margin: 0px;
+  align-items: center;
+  justify-content: center;
+  padding: 5vh;
+  flex-wrap: wrap;
+  justify-content: start;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+#drawingArea {
+  background-color: #fefae0;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  flex-grow: 0;
+  flex-basis: 650px;
+  align-self: stretch;
+  height: 650px;
+}
+
+.pixels {
+  background-color: #faedcd;
+
+  display: flex;
+  flex-grow: 1;
+  margin: 1px;
+}
+.rows {
+  background-color: #fefae0;
+  display: flex;
+  flex-grow: 1;
+  margin: 0px;
+}
+
+#infoDiv {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 0;
+  flex-basis: 5px;
+  align-self: stretch;
+
+  padding: 5px;
+  background-color: #ccd5ae;
+}
+
+#inBetween {
+  display: flex;
+  flex-grow: 1;
+}
